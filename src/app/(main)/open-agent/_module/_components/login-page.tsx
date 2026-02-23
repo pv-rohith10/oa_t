@@ -23,10 +23,10 @@ export function LoginPage({ onLogin }: LoginPageProps) {
     setError('');
 
     setTimeout(() => {
-      if (password.trim()) {
+      if (password === 'OA@PP_1') {
         onLogin();
       } else {
-        setError('Password is required.');
+        setError('Invalid password. Please try again.');
       }
       setLoading(false);
     }, 600);
