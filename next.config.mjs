@@ -8,12 +8,12 @@ const nextConfig = {
     return [
       {
         source: "/",
-        destination: "/dashboard/open-agent",
+        destination: "/open-agent/dashboard",
         permanent: false,
       },
       {
         source: "/dashboard",
-        destination: "/dashboard/open-agent",
+        destination: "/open-agent/dashboard",
         permanent: false,
       },
     ];
