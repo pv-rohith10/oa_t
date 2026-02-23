@@ -7,8 +7,13 @@ const nextConfig = {
   async redirects() {
     return [
       {
+        source: "/",
+        destination: "/dashboard/open-agent",
+        permanent: false,
+      },
+      {
         source: "/dashboard",
-        destination: "/dashboard/default",
+        destination: "/dashboard/open-agent",
         permanent: false,
       },
     ];

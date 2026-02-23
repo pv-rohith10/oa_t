@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 108" fill="none">
+  <!-- Circle (O) - left edge at x=2, right at x=90, top at y=10, bottom at y=98 -->
+  <circle cx="46" cy="54" r="44" fill="#2E3447"/>
+  <!-- Triangle back face (lighter gray) -->
+  <polygon points="85,5 58,103 128,103" fill="#8A9BB0"/>
+  <!-- Triangle front face (slightly darker inner leg) -->
+  <polygon points="85,5 94,103 128,103" fill="#6B7A8E"/>
+</svg>
