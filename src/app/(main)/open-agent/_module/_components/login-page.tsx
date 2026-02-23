@@ -39,9 +39,6 @@ export function LoginPage({ onLogin }: LoginPageProps) {
         <div className="text-center space-y-2">
           <img src="/oa-logo.png" alt="Open Agent" className="mx-auto h-24 w-auto" />
           <h1 className="text-2xl font-bold tracking-tight">Open Agent</h1>
-          <p className="text-muted-foreground text-sm">
-            SEC-Compliant Equity Management Platform
-          </p>
         </div>
 
         {/* Login Card */}
@@ -91,9 +88,6 @@ export function LoginPage({ onLogin }: LoginPageProps) {
           </CardContent>
         </Card>
 
-        <p className="text-center text-xs text-muted-foreground">
-          Regulated by SEC · FINRA · DTCC compliant · All activity logged
-        </p>
       </div>
     </div>
   );
